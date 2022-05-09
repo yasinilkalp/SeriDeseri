@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>netstandard2.0;net45</TargetFrameworks>
+		<PackageId>SerializeAndDeserialize</PackageId>
+		<Version>1.0.1</Version>
+		<Authors>Yasin ilkalp Arabaci</Authors>
+		<PackageDescription>Sample Nuget Package</PackageDescription>
+		<Description>Sample Nuget Package</Description>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageTags>Nuget Package</PackageTags>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+	</ItemGroup>
+
+</Project>
